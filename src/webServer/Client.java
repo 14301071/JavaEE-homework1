@@ -29,7 +29,7 @@ public class Client {
 				System.out.println("response: \n"+rp+"\n");
 			}
 		}catch(SocketException e){
-			System.out.println("a problem occur in the server£º"+e.getMessage());
+			System.out.println("a problem occur in the server: "+e.getMessage());
 		}finally{
 			connection.close();
 		}
